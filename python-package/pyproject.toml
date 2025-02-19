@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+    "setuptools >= 62.3.0",
+    "setuptools-scm",
+    "wheel >= 0.29.0",
+]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'mypkg'
+description = "demo python package"
+version = '0.1.0'
+authors = [
+    {name = "Kelly Sovacool", email = "kelly.sovacool@nih.gov"},
+]
+maintainers = [
+    {name = "Kelly Sovacool", email = "kelly.sovacool@nih.gov"},
+]
+classifiers = [
+    "Environment :: Console",
+    "Environment :: MacOS X",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT license",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = [
+    "black >= 23.10.0"
+]
+test = [
+    "pytest",
+    "pytest-cov"
+]
