@@ -1,0 +1,10 @@
+name: Hello world!
+
+on: push
+
+jobs:
+    myjob1:
+        runs-on: ubuntu-latest # windows-latest, macos-latest
+        steps:
+            - run: echo "Hello world!"
+            - run: echo "The job was triggered by ${{ github.event_name}}"
