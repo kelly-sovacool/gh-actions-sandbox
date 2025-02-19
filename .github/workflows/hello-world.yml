@@ -1,11 +1,12 @@
-name: Hello checkout
+name: Hello world!
 
 on: push
 
 jobs:
-    myjob1:
-        runs-on: ubuntu-latest # windows-latest, macos-latest
-        steps:
-            - uses: actions/checkout@v4
-            - name: List files in the repo
-              run: ls ${{ github.workspace }}
+  myjob1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Hello world!"
+      - run: |
+          echo "The job was triggered by"
+          echo "a ${{ github.event_name }} event."
