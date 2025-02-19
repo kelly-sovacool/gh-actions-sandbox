@@ -14,7 +14,7 @@ ggplot2::theme_set(ggplot2::theme_minimal())
 ```
 
 This is a report of penguins studied by Dr Kristen Gorman in Antarctica.
-Adapted from <https://allisonhorst.github.io/palmerpenguins/articles/examples.html>.
+The content was adapted from <https://allisonhorst.github.io/palmerpenguins/articles/examples.html>.
 
 ```{r mass_vs_flipper}
 mass_flipper <- ggplot(data = penguins, 
