@@ -2,7 +2,7 @@
 
 Demonstrating GitHub Actions
 
-See the [init branch](https://github.com/kelly-sovacool/gh-actions-sandbox/tree/init/python-package)
+See the [init branch](https://github.com/kelly-sovacool/gh-actions-sandbox/tree/init/)
 of this repo for the unmodified demo code. Start there if you're following
 along with the [demo](https://github.com/kelly-sovacool/gh-actions-demo).
 The [main branch](https://github.com/kelly-sovacool/gh-actions-sandbox/tree/main)
