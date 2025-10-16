@@ -12,5 +12,9 @@ url: https://sovacool.dev/gh-actions-demo/
 repository-code: https://github.com/kelly-sovacool/gh-actions-sandbox
 license: MIT
 type: software
+identifiers:
+  - description: Archived snapshots of all versions
+    type: doi
+    value: 10.5281/zenodo.17371109
 version: 1.0.0
 date-released: "2025-02-19"
